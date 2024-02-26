@@ -4,14 +4,31 @@
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="/assets/images/vite.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="css/base/normalize.css" />
 		<link rel="stylesheet" href="css/base/base.css" />
 		<link rel="stylesheet" href="css/styles.css" />
-		<title>Vite App</title>
+		<title>Task's Reminder</title>
 	</head>
 	<body>
-		<h1>WEB WITH VITE</h1>
-		<!-- <img src="./assets/images/cute-cat.webp" alt="" /> -->
+		<div class="div">
+			<h1>Task's reminder!</h1>
+			<form id="form">
+				<input class="input-class" type="text" name="task" />
+			</form>
+			<div class="tasks-container" id="tasks-container"></div>
+			<div id="buttons" class="buttons">
+				<button data-filter="all">All</button>
+				<button data-filter="active">Active</button>
+				<button data-filter="completed">Completed</button>
+			</div>
+			<p id="counter-tasks"></p>
+		</div>
 		<script type="module" src="./js/index.js"></script>
 	</body>
 </html>
