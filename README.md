@@ -32,7 +32,7 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 **Jaime Benítez**
 
-- [micorreo@midominio.com](jaimebenitezlope@icloud.com)
+- [bl.jaime@icloud.com]()
 - [LinkedIn](https://www.linkedin.com/in/jaimebenitezlope/)
 - [Porfolio web]()
 
